@@ -1,7 +1,11 @@
-﻿<?php
+
+<?php
+
+error_reporting(-1);`
+ini_set('display_errors', 'On');
 
 // Replace this with your own email address
-$siteOwnersEmail = 'user@website.com';
+$siteOwnersEmail = 'chacon.adriana30@gmail.com';
 
 
 if($_POST) {
@@ -51,7 +55,7 @@ if($_POST) {
 
 		if ($mail) { echo "OK"; }
       else { echo "Something went wrong. Please try again."; }
-		
+
 	} # end if - no validation error
 
 	else {
@@ -59,7 +63,7 @@ if($_POST) {
 		$response = (isset($error['name'])) ? $error['name'] . "<br /> \n" : null;
 		$response .= (isset($error['email'])) ? $error['email'] . "<br /> \n" : null;
 		$response .= (isset($error['message'])) ? $error['message'] . "<br />" : null;
-		
+
 		echo $response;
 
 	} # end if - there was a validation error

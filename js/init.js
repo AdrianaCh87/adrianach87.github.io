@@ -155,13 +155,13 @@
 	      url: "inc/sendEmail.php",
 	      data: data,
 	      success: function(msg) {
-
+          console.log(msg);
             // Message was sent
             if (msg == 'OK') {
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
+               $('#message-success').fadeIn();
             }
             // There was an error
             else {
@@ -178,11 +178,3 @@
 
 
 });
-
-
-
-
-
-
-
-
