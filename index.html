@@ -46,8 +46,8 @@
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
             <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+	          <li><a class="smoothscroll" href="#resume">Resume</a></li>
             <li><a class="smoothscroll" href="#contact">Contact</a></li>
          </ul> <!-- end #nav -->
 
@@ -56,9 +56,10 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Hello, I'm Adriana</h1>
-            <h3>Thanks for visiting my portfolio website!
-              Scrolldown to learn more <a href="#about">about me</a>,
-               <a href="#resume">my experience</a>, and
+            <h3>I'm a data engineer and analyst.
+            Thanks for visiting my portfolio website! Scrolldown to learn more
+              <a href="#about">about me</a>,
+               <a href="#resume">my experience</a> and
               <a href="#portfolio">recent projects</a>.</h3>
             <hr />
             <ul class="social">
@@ -116,60 +117,245 @@
    </section> <!-- About Section End-->
 
 
+  <!-- Portfolio Section
+  ================================================== -->
+  <section id="portfolio">
+
+     <div class="row">
+
+        <div class="twelve columns collapsed">
+
+           <h1>Check Out Some of My Projects</h1>
+
+           <!-- portfolio-wrapper -->
+           <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+         	   <div class="columns portfolio-item">
+                 <div class="item-wrap">
+
+                    <a href="#modal-01" title="">
+                       <img alt="" src="images/portfolio/mentalHealth.jpg">
+                       <div class="overlay">
+                          <div class="portfolio-item-meta">
+         					      <h5>Mental Healthcare</h5>
+                             <p>Exploratory Analysis</p>
+         					   </div>
+                       </div>
+                       <div class="link-icon"><i class="icon-plus"></i></div>
+                    </a>
+
+                 </div>
+         		</div> <!-- item end -->
+
+              <div class="columns portfolio-item">
+                 <div class="item-wrap">
+
+                    <a href="#modal-02" title="">
+                       <img alt="" src="images/portfolio/reddit.svg">
+                       <div class="overlay">
+                          <div class="portfolio-item-meta">
+         					      <h5>Reddit</h5>
+                             <p>NLP</p>
+         					   </div>
+                       </div>
+                       <div class="link-icon"><i class="icon-plus"></i></div>
+                    </a>
+
+                 </div>
+         		</div> <!-- item end -->
+
+              <div class="columns portfolio-item">
+                 <div class="item-wrap">
+
+                    <a href="#modal-03" title="">
+                       <img alt="" src="images/portfolio/housePrediction.png">
+                       <div class="overlay">
+                          <div class="portfolio-item-meta">
+         					      <h5>House Price</h5>
+                             <p>Predictive Modeling</p>
+         					   </div>
+                       </div>
+                       <div class="link-icon"><i class="icon-plus"></i></div>
+                    </a>
+
+                 </div>
+         		</div> <!-- item end -->
+
+              <div class="columns portfolio-item">
+                 <div class="item-wrap">
+
+                    <a href="#modal-04" title="">
+                       <img alt="" src="images/portfolio/studentTest.png">
+                       <div class="overlay">
+                          <div class="portfolio-item-meta">
+         					      <h5>College Test Outcomes in California</h5>
+                             <p>Tableau Visualizations</p>
+         					   </div>
+                       </div>
+                       <div class="link-icon"><i class="icon-plus"></i></div>
+                    </a>
+
+                 </div>
+         		</div> <!-- item end -->
+
+
+           </div> <!-- portfolio-wrapper end -->
+
+        </div> <!-- twelve columns end -->
+
+
+        <!-- Modal Popup
+        --------------------------------------------------------------- -->
+
+        <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-mentalHealth.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Access to Mental Healthcare in the U.S.</h4>
+			      <p>Identified trends and key factors for the data on Mental Health Professional Shortage Areas that can be useful for future programs and policies to address the needs of the population...
+            <a href="https://github.com/AdrianaCh87/Access-to-Mental-Healthcare-Exploratory-Analysis" target="_blank">more</a>
+          </p>
+              <span class="categories"><i class="fa fa-tag"></i>Exploratory Analysis</span>
+		      </div>
+           <div class="link-box">
+		             <a class="popup-modal-dismiss">Close</a>
+           </div>
+	      </div><!-- modal-01 End -->
+
+        <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-reddit.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Classification of Reddit Posts</h4>
+			      <p> Using NLP on subreddit titles, predict the subreddit of an unknown post...
+            <a href="https://github.com/AdrianaCh87/NLP-and-Classification-of-Reddit-Posts" target="_blank">more</a>
+          </p>
+              <span class="categories"><i class="fa fa-tag"></i>Natural Language Processing</span>
+		      </div>
+
+        <div class="link-box">
+            <a class="popup-modal-dismiss">Close</a>
+        </div>
+
+	      </div><!-- modal-02 End -->
+
+        <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-housePrediction.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Predicting House Sale Price in Ames, IA</h4>
+			      <p>Using a neural network model and property characteristics, predict the selling price of a house in Ames, Iowa...
+            <a href="https://github.com/AdrianaCh87/Predicting-House-Sale-Price-in-Ames-Iowa" target="_blank">more</a>
+          </p>
+              <span class="categories"><i class="fa fa-tag"></i>Predictive Modeling</span>
+		      </div>
+
+           <div class="link-box">
+		            <a class="popup-modal-dismiss">Close</a>
+           </div>
+
+	      </div><!-- modal-03 End -->
+
+        <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-studentTest.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>College Admissions Test Outcomes in California</h4>
+			      <p>Analyzed the information for SAT and ACT scores for California schools to find trends in college test performance across counties and school districts...
+            <a href="https://github.com/AdrianaCh87/Test-Scores-in-California" target="_blank">more</a>
+          </p>
+              <span class="categories"><i class="fa fa-tag"></i>Tableau Visualizations</span>
+		      </div>
+
+           <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+           </div>
+
+	      </div><!-- modal-04 End -->
+
+        <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Farmer Boy</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+              <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+           <div class="link-box">
+              <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+           </div>
+
+	      </div><!-- modal-05 End -->
+
+        <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Girl</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+              <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+           <div class="link-box">
+              <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+           </div>
+
+	      </div><!-- modal-06 End -->
+
+        <!-- <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Origami</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+              <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+           <div class="link-box">
+              <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+           </div> -->
+
+	      </div><!-- modal-07 End -->
+
+        <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Retrocam</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+              <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+           <div class="link-box">
+              <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+           </div>
+
+	      </div><!-- modal-01 End -->
+
+
+     </div> <!-- row End -->
+
+  </section> <!-- Portfolio Section End-->
+
+
    <!-- Resume Section
    ================================================== -->
    <section id="resume">
 
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>General Assembly</h3>
-                  <p class="info">Data Science Immersive <span>&bull;</span> <em class="date">December 2020</em></p>
-
-                  <p>
-                  12-week full-time immersive educational program strengthening
-                  Data Science skills including: Python, SQL, data cleaning,
-                  data visualization, regression models, classification models,
-                  web-scraping, APIs, NLP, advanced supervised learning,
-                  unsupervised learning, time series analysis, and statistics.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>University of South Florida</h3>
-                  <p class="info">B.S. Mechanical Engineering <span>&bull;</span> <em class="date">August 2010</em></p>
-
-                  <p>
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-
-      <!-- Work
-      ----------------------------------------------- -->
+      <!-- Work ------------------------------------------------->
       <div class="row work">
 
          <div class="three columns header-col">
@@ -300,284 +486,90 @@
          </div> <!-- main-col end -->
 
       </div> <!-- End Work -->
+            <!-- Skills ------------------------------------------------->
+            <div class="row skill">
+
+               <div class="three columns header-col">
+                  <h1><span>Skills</span></h1>
+               </div>
+
+               <div class="five columns main-col">
+                  <!-- <p>Soft skills include Resourceful, Detail-oriented, Goal-driven, Creative </p> -->
+          				<div class="bars">
+          				   <ul class="skills">
+          					   <li><em>Python</em></li>
+                       <li><em>SQL</em></li>
+            					 <li><em>Javascript</em></li>
+            					 <li><em>Pandas</em></li>
+            					 <li><em>Statistical Modeling</em></li>
+                       <li><em>Tableau</em></li>
+          					</ul>
+          				</div><!-- end skill-bars -->
+      			</div> <!-- main-col end -->
+            <div class="four columns main-col">
+              <div class="bars">
+                 <ul class="skills">
+                   <li><em>Regression Models</em></li>
+                   <li><em>Classification Models</em></li>
+                   <li><em>Neural Networks</em></li>
+                   <li><em>Time Series Analysis</em></li>
+                   <li><em>Image Classification</em></li>
+                   <li><em>Statistical Distributions</em></li>
+                </ul>
+              </div><!-- end skill-bars -->
+            </div>
+
+            </div> <!-- End skills -->
 
 
-      <!-- Skills
+      <!-- Education
       ----------------------------------------------- -->
-      <div class="row skill">
+      <div class="row education">
 
          <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>Education</span></h1>
          </div>
 
          <div class="nine columns main-col">
 
-            <p>Experience with Python, SQL, and Javascript. Using Python, completed
-              statistical Modeling, Regression Models, Classification Models,
-              Time Series Analysis, Neural Networks, Image Classification, and
-              Statistical Distributions. Worked with libraries such as Pandas,
-              NumPy, NLTK, BeautifulSoup, TensorFlow, Searborn, Plotly.</p>
+            <div class="row item">
 
-            <p>Creation of dashboards using Tableau.</p>
+               <div class="twelve columns">
 
-            <p>MiniTab for hypothese testing, calculate p-value.</p>
+                  <h3>General Assembly</h3>
+                  <p class="info">Data Science Immersive <span>&bull;</span> <em class="date">December 2020</em></p>
 
-            <p>Soft skills include Resourceful, Detail-oriented, Goal-driven, Creative </p>
+                  <p>
+                  12-week full-time immersive educational program strengthening
+                  Data Science skills including: Python, SQL, data cleaning,
+                  data visualization, regression models, classification models,
+                  web-scraping, APIs, NLP, advanced supervised learning,
+                  unsupervised learning, time series analysis, and statistics.
+                  </p>
 
+               </div>
 
+            </div> <!-- item end -->
 
+            <div class="row item">
 
-				<div class="bars">
+               <div class="twelve columns">
 
-				   <ul class="skills">
-					   <li><span class="bar-expand Python"></span><em>Python</em></li>
-                  <li><span class="bar-expand SQL"></span><em>SQL</em></li>
-						<li><span class="bar-expand javascript"></span><em>Javascript</em></li>
-						<li><span class="bar-expand Pandas"></span><em>Pandas</em></li>
-						<li><span class="bar-expand statistical_modeling"></span><em>Statistical Modeling</em></li>
-                  <li><span class="bar-expand tableau"></span><em>Tableau</em></li>
-					</ul>
+                  <h3>University of South Florida</h3>
+                  <p class="info">B.S. Mechanical Engineering <span>&bull;</span> <em class="date">August 2010</em></p>
 
-				</div><!-- end skill-bars -->
+                  <p>
+                  </p>
 
-			</div> <!-- main-col end -->
+               </div>
 
-      </div> <!-- End skills -->
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
 
    </section> <!-- Resume Section End-->
-
-
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1>Check Out Some of My Works.</h1>
-
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-          	   <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/mentalHealth.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Mental Healthcare</h5>
-                              <p>Exploratory Analysis</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/reddit.svg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Reddit</h5>
-                              <p>NLP</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/housePrediction.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>House Price</h5>
-                              <p>Predictive Modeling</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/studentTest.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>College Test Outcomes in California</h5>
-                              <p>Tableau Visualizations</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-
-            </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
-         --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-mentalHealth.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Access to Mental Healthcare in the U.S.</h4>
-			      <p>Identified trends and key factors for the data on Mental Health Professional Shortage Areas that can be useful for future programs and policies to address the needs of the population..</p>
-               <span class="categories"><i class="fa fa-tag"></i>Exploratory Analysis</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/AdrianaCh87/Access-to-Mental-Healthcare-Exploratory-Analysis" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-reddit.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>Classification of Reddit Posts</h4>
-			      <p> Using NLP on subreddit titles, predict the subreddit of an unknown post.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Natural Language Processing</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/AdrianaCh87/NLP-and-Classification-of-Reddit-Posts" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-housePrediction.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>Predicting House Sale Price in Ames, IA</h4>
-			      <p>Using a neural network model and property characteristics, predict the selling price of a house in Ames, Iowa.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Predictive Modeling</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/AdrianaCh87/Predicting-House-Sale-Price-in-Ames-Iowa" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-studentTest.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>College Admissions Test Outcomes in California</h4>
-			      <p>Analyzed the information for SAT and ACT scores for California schools to find trends in college test performance across counties and school districts.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Tableau Visualizations</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/AdrianaCh87/Test-Scores-in-California" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <!-- <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div> -->
-
-	      </div><!-- modal-07 End -->
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
-
 
    <!-- Call-To-Action Section
    ================================================== -->
@@ -609,8 +601,6 @@
 
    </section>  Call-To-Action Section End -->
 
-
-
    <!-- Contact Section
    ================================================== -->
    <section id="contact">
@@ -625,7 +615,7 @@
 
             <!-- <div class="ten columns"> -->
 
-              <div class="columns contact-details">
+              <div class="ten columns contact-details">
 
                  <h2>Contact Details</h2>
 
@@ -634,8 +624,15 @@
                  </p>
 
                  <span>Adriana Chacon</span><br>
-                 <span>(813) 965-1428</span><br>
                  <span>chacon.adriana30@gmail.com</span>
+
+                 <div class="row">
+                    <div class="columns download">
+                       <p>
+                          <a href="https://drive.google.com/file/d/1fMV7qOh3--obWsqxb3JKTGSoldSo5Vxg/view?usp=sharing" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                       </p>
+                    </div>
+                 </div> <!-- end row -->
 
               </div>
 
@@ -737,8 +734,6 @@
             <!-- </aside> -->
 
       <!-- </div> -->
-
-
 
 
    <!-- footer
